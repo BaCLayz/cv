@@ -5,16 +5,21 @@ body {
 }
 
 h1 {
+    color: #66BFBF;
     font-size: 90px;
+    line-height: 2;
     margin-top: 0;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
+    color: #66BFBF;
+    font-weight: normal;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 .top-container {
@@ -36,8 +41,14 @@ h3 {
 .bottom-container {
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
 
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .pro {
@@ -53,4 +64,16 @@ h3 {
     position: absolute;
     left: 300px;
     bottom: 300;
+}
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
 }
